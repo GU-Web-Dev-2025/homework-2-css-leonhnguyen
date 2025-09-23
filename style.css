@@ -1,0 +1,130 @@
+#header {
+    background-color:saddlebrown;
+ 
+}
+
+#header>nav{
+    justify-content:flex-end;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#header>img{
+    width: 200px;
+
+}
+
+body{
+    width: 95%;
+    padding: 0%;
+    background-color: wheat;
+    margin: auto;
+    }
+
+
+div {
+    border: 2px solid black;
+}
+
+
+#flex-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+}
+
+#about-me{
+    background-color: khaki;
+    flex: 0 1 30%;
+    padding: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#about-me>h1{
+    text-align: center;
+}
+
+#about-me>img{
+  display: block;
+  margin: auto;
+  height: 400px;
+}
+
+
+.main-section{
+    flex: 0 2 70%;
+}
+
+#career-summary{
+    background-color: crimson;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#career-summary>h2{
+    font-size: 20px;
+    border: 2px solid black;
+
+}
+
+
+#qualifications{
+    background-color: crimson;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#qualifications>h3{
+    font-size: 20px;
+    border: 2px solid black;
+
+}
+
+
+
+#hobbies-and-interest{
+    background-color: crimson;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+#hobbies-and-interest>h4{
+    margin: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+#hobbies-and-interest>b{
+    margin: 10px;
+    font-size: 20px;
+    
+}
+
+
+table{
+    border: 2px solid black;
+    background-color: khaki;
+}
+
+th{
+    border: 2px solid black;
+    background-color: khaki;
+}
+
+tr:nth-child(odd) {
+        background-color: gray;
+}
+
+tr:nth-child(even) {
+        background-color: rgb(164, 157, 157);
+}
+
+a :hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+  
+}

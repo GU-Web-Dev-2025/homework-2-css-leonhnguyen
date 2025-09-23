@@ -5,30 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW2</title>
     <link rel = "stylesheet" href="style.css" >
+    <link rel="shortcut icon" href="spotifyPL.png" type="image/x-icon">
 
 </head>
 <body>
 
-    <div class="header">
+    <div id="header">
 
-        <table style>
+        <img src ="bronLogo.png" alt="kingJames" id="kingJames">
 
-        <tr>
-            <th><a href="index.html">About Me</a></th>
-            <th><a href="careerSummary.html">Career</a></th>
-            <th><a href="qualifications.html">Qualifications</a></th>
-            <th><a href="hobbies.html">Hobbies</a></th>
-        </tr>
-
-    </table>
+            <nav>
+                <a href="#about-me">About Me</a>
+                <a href="#career-summary">Career</a>
+                <a href="#qualifications">Qualifications</a>
+                <a href="#hobbies-and-interest">Hobbies</a>
+            </nav>
 
     </div>
 
     <div id="flex-container">
         
-        <div class="about-me">
+        <section id="about-me">
             
-            <img src = "profilePic.png" alt="gross profile picture" width = 200>
+            <img src = "profilePic.png" alt="gross profile picture" id="profilePic" >
 
             <h1>About Me!</h1>
                 <p1>
@@ -42,8 +41,9 @@
                 <br>
                     decision making, potentially, within the world of sports
                 </p1>
+                
+            <br><br>
 
-            
             <caption><b>General Skills</b></caption>
                 <ul>
                     <li>Bilingual Communications</li>
@@ -62,210 +62,227 @@
                     <li>Java</li>
                     <li>RStudio</li>
                 </ul>
+        </section>  
 
-        </div>
+        <section class="main-section">
 
-        <div class="main-contents">
-
-            <table>
-                <h2>Career Summary</h2>
-                <tr>
-                    <th>Big 5 Sporting Goods <em>Sales Associate/Cashier</em></th>
-                    
-                    <th>West Seattle Food Bank <em>Volunteer</em></th>
-                
-                </tr>
-
-                <tr>
-                    <td>
-                        Managed store inventory of new products, footwear, and apparel. 
-                        Ensure that products are maintained and organized.</td>
-
-                    <td>
-                        Managed warehouse inventory of produce, pastries, protein, and miscellaneous from storage trucks.   
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                    Assisted costumers in finding the right size or product of interest.</td>
-
-                    <td>
-                    Assisted different volunteers and team members at different stations such as 
-                    the produce, protein, or deli stations.
-        
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                    Second language helps with being a point of contact for customer concerns.
-                    </td>
-
-                    <td>
-                    Second language helps bridge communication between customers and team members
-        
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                    Operations of cash registered to process customer’s payment of product or outdoor licenses.
-                    </td>
-
-                    <td>
-                    Maintain cleanliness to ensure customers are working with healthy products of food.
-        
-                    </td>
-                </tr>
-
-
-            <table>
-                <h3>Qualifcations</h3>
+            <div id="career-summary">
+                <table class="carsum">
+                    <h2>Career Summary</h2>
                     <tr>
-                        <th>Education</th>
-                    
-                    </tr>
-
-                    <tr>
-                        <th>Bachelor's in BA Mathematics:Ongoing</th>
+                        <th>Big 5 Sporting Goods <em>Sales Associate/Cashier</em></th>
                         
-
-                    </tr>
-
-                    <tr>
-                        <th>Relevant Course Work</th>
-
+                        <th>West Seattle Food Bank <em>Volunteer</em></th>
+                    
                     </tr>
 
                     <tr>
                         <td>
-                            CALC Series
+                            Managed store inventory of new products, footwear, and apparel. 
+                            Ensure that products are maintained and organized.</td>
+
+                        <td>
+                            Managed warehouse inventory of produce, pastries, protein, and miscellaneous from storage trucks.   
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                        Assisted costumers in finding the right size or product of interest.</td>
+
+                        <td>
+                        Assisted different volunteers and team members at different stations such as 
+                        the produce, protein, or deli stations.
+            
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                        Second language helps with being a point of contact for customer concerns.
+                        </td>
+
+                        <td>
+                        Second language helps bridge communication between customers and team members
+            
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                        Operations of cash registered to process customer’s payment of product or outdoor licenses.
+                        </td>
+
+                        <td>
+                        Maintain cleanliness to ensure customers are working with healthy products of food.
+            
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            
+            <div id="qualifications">
+                <table class="edu">
+                    <h3>Qualifications</h3>
+                        <tr>
+                            <th>Education</th>
+                        
+                        </tr>
+
+                        <tr>
+                            <th>Bachelor's in BA Mathematics:Ongoing</th>
+                            
+
+                        </tr>
+
+                        <tr>
+                            <th>Relevant Course Work</th>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                CALC Series
+                                </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Fundamentals of Mathematics
                             </td>
 
-                    </tr>
+                        </tr>
 
-                    <tr>
-                        <td>
-                            Fundamentals of Mathematics
-                        </td>
+                        <tr>
+                            <td>
+                            Linear Algebra
+                            </td>
 
-                    </tr>
+                        </tr>
 
-                    <tr>
-                        <td>
-                        Linear Algebra
-                        </td>
+                        <tr>
+                            <td>
+                            Abstract Algebra
+                            </td>
+                        </tr>
 
-                    </tr>
+                        <tr>
+                            <td>
+                            Statistics for Experimentalist
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <td>
-                        Abstract Algebra
-                        </td>
-                    </tr>
+                        <tr>
+                            <td>
+                            Computer Science I
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <td>
-                        Statistics for Experimentalist
-                        </td>
-                    </tr>
+                        <tr>
+                            <td>
+                            Computer Science II
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <td>
-                        Computer Science I
-                        </td>
-                    </tr>
+                        <tr>
+                            <td>
+                            Software Development
+                            </td>
+                        </tr>
+                    
+                        <table class="workexp">
 
-                    <tr>
-                        <td>
-                        Computer Science II
-                        </td>
-                    </tr>
+                            <br><br>
 
-                    <tr>
-                        <td>
-                        Software Development
-                        </td>
-                    </tr>
+                            <tr>
+                                <th>Work Experience</th>
+
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Big 5 Sporting Goods: Sales Associate/Cashier</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>West Seattle Food Bank: Volunteer</td>
+                            </tr>
                 
-                    <table>
-                        <tr>
-                            <th>Work Experience</th>
-
-
-                        </tr>
-
-                        <tr>
-
-                            <td>Big 5 Sporting Goods: Sales Associate/Cashier</td>
-
-                        </tr>
-
-                        <tr>
-                            <td>West Seattle Food Bank: Volunteer</td>
-                        </tr>
+                        </table>
+                    </table>
+            </div>
+    
             
-            </table>
+            <div id="hobbies-and-interest">
+                <h4>Interests and Hobbies</h4>
 
-            <h4><caption>Interests and Hobbies</caption></h4>
+                    <caption><b>Interests</b></caption>
 
-                <caption><b>Interests</b></caption>
-
-                <ol type="I">
-                
-                    <li>Sports</li>
-                        <ul>
-                            <li>NBA</li>
-                                <ul>
-                                <a href="https://www.youtube.com/watch?v=WPLmAQFyVIA" target="_blank" rel="noopener noreferrer">
-                                <img src ="bronCry.png"
-                                alt="PlayListCover"
-                                width="100">
-                                </a>
-                                </ul>
-
-                            <li>NFL</li>
-                                <ul>
-                                    <li>Seahawks :(</li>
+                    <ol type="I">
+                    
+                        <li>Sports</li>
+                            <ul>
+                                <li>NBA</li>
                                     <ul>
-                                        <a href="https://www.youtube.com/watch?v=N-byJvHAXQA" target="_blank" rel="noopener noreferrer">
-                                        <img src ="takeMeBack.png"
-                                        alt="PlayListCover"
-                                        width="100">
-                                        </a>
+                                    <a href="https://www.youtube.com/watch?v=WPLmAQFyVIA" target="_blank" rel="noopener noreferrer">
+                                    <img src ="bronCry.png"
+                                    alt="lebronChip"
+                                    width="100"
+                                    id="finals"
+                                    >
+                                    </a>
                                     </ul>
 
-                                    
-                                </ul>
-                        </ul>
+                                <li>NFL</li>
+                                    <ul>
+                                        <li>Seahawks :(</li>
+                                        <ul>
+                                            <a href="https://www.youtube.com/watch?v=N-byJvHAXQA" target="_blank" rel="noopener noreferrer">
+                                            <img src ="takeMeBack.png"
+                                            alt="seahawksSB"
+                                            width="100"
+                                            id="sb"
+                                            >
+                                            </a>
+                                        </ul>
 
-                    <li>Music</li>
-                        <ul>
-                            <li>Spotify</li>
+                                        
+                                    </ul>
+                            </ul>
 
-                        </ul>
-                        
-                        <ul>
-                            <a href="https://open.spotify.com/playlist/3DrV0mlQ7W905YY8l4HT6T?si=CeCAZpOqSfawsgtoBA3f4Q&pi=ptLRZw12QAie9&nd=1&dlsi=a26e4e5961e34a4b" target="_blank" rel="noopener noreferrer">
-                            <img src ="spotifyPL.png"
-                            alt="PlayListCover"
-                            width="100">
-                            </a>
-                        </ul>
+                        <li>Music</li>
+                            <ul>
+                                <li>Spotify</li>
 
-                    <li>Movies/TV Shows/Media</li>
-                
-                </ol>
+                            </ul>
+                            
+                            <ul>
+                                <a href="https://open.spotify.com/playlist/3DrV0mlQ7W905YY8l4HT6T?si=CeCAZpOqSfawsgtoBA3f4Q&pi=ptLRZw12QAie9&nd=1&dlsi=a26e4e5961e34a4b" target="_blank" rel="noopener noreferrer">
+                                <img src ="spotifyPL.png"
+                                alt="PlayListCover"
+                                width="100"
+                                id="playlist"
+                                >
+                                </a>
+                            </ul>
 
-                    <caption><b>Hobbies</b></caption>
-                    <ol type="I">
-
-                        <li>Gym</li>
-                        <li>Hiking</li>
-                        <li>Basketball</li>
-
+                        <li>Movies/TV Shows/Media</li>
+                    
                     </ol>
+
+                        <caption><b>Hobbies</b></caption>
+                        <ol type="I">
+
+                            <li>Gym</li>
+                            <li>Hiking</li>
+                            <li>Basketball</li>
+
+                        </ol>
+            </div>
         
         <div>
 
