@@ -62,6 +62,10 @@ div {
  
 }
 
+#about-me>p1{
+    font-size: 23px;
+}
+
 
 .main-section{
     flex: 0 2 70%;
