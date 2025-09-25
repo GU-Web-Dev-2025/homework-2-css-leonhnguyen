@@ -54,6 +54,14 @@ div {
   height: 400px;
 }
 
+#about-me>h5{
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+ 
+}
+
 
 .main-section{
     flex: 0 2 70%;
