@@ -84,7 +84,15 @@ div {
 
 }
 
+#skills{
+    background-color: crimson;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
 
+#skills>b{
+    border: 2px solid black;
+}
 
 #hobbies-and-interest{
     background-color: crimson;
